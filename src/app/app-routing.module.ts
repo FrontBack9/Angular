@@ -4,9 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 // Importação dos componentes da Aplicação
 
 import { HomeComponent } from './views/home/home.component';
+import { LoginComponent } from './views/login/login.component';
+import { ProdutoComponent } from './views/produto/produto.component';
 
 const routes: Routes = [
   {path:"", component:HomeComponent},
+  {path:"login", component:LoginComponent},
+  {path:"produto", component:ProdutoComponent}
   
 ];
 
