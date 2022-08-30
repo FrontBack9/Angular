@@ -136,10 +136,7 @@
 /* Desktops varia de 992px - 1199px */
 @media all and (max-width: 1199px) {
 
-    .container,
-    .container-grid {
-        max-width: 980px;
-    }
+    
 }
 
 /* Tablets varia de 768px - 991px*/
